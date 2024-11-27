@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+a{
+     
+}
+
+.grid-container {
+    
+    width: 100VW;
+    height: 900px;
+    display: grid;
+    gap: 20px;
+    padding: 40px 40px 0px 40px;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows:1fr 1fr 1fr;
+    position: relative;
+    overflow: hidden;
+   
+border-radius: 10px;
+    
+}
+    
+   
+
+
+.grid-item { 
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+    
+
+.grid-item img {
+    width: 70%;
+    height: 100px;
+ 
+}
+
+
+
+
+h1, h2 {
+    margin: 10px 0;
+    text-align: left;
+}
+
+.grid-item1{
+    background-image: url("418350.jpg");
+background-size: cover;
+position: relative;
+    overflow: hidden;
+   
+    background-position: center;
+    border: 1px solid #ddd; 
+    border-radius: 10px; 
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+
+.grid-item2{
+    background-image: url("pexels-freestockpro-376361.jpg");
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    background-position: center;
+
+}
+
+.grid-item3{
+    background-image: url("pexels-lynxexotics-3752194.jpg");
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    background-position: center;
+
+}
+
+.grid-item4{
+    background-image: url("carro.jpg");
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    background-position: center;
+
+}
+
+
+    
+
+.grid-item6{
+    background-image: url("122440-Lamborghini-car.jpg");
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    background-position: center;
+
+}
+.grid-item7{
+    background-image: url("wp6521317.webp");
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    background-position: center;
+
+}
+
+.grid-item8{
+    background-image: url("baixados.jpg");
+    
+
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.grid-item9{
+    background-image: url("yamaha-yzf-r6-2017-gris-oscuro-mate-45498b.png");
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: transform 0.3s;
+    background-position: center;
+
+}
+
+
+
